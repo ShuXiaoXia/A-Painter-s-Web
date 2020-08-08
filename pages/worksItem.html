@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A Painter's web</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="clear">
+        <div class="fl brand">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="A Painter's web">
+                A Painter's web
+            </a>
+        </div>
+        <div class="fr menu">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../pages/works.html">Works</a></li>
+                <li><a href="../pages/worksItem.html">Works Item</a></li>
+                <li><a href="../pages/about.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="fr menu-mobile">
+            <div class="menu-icon" onclick="toggle()">
+                <img src="../img/menu.png" alt="menu">
+            </div>
+            <div id="ml" class="menu-list" hidden>
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../pages/works.html">Works</a></li>
+                    <li><a href="../pages/worksItem.html">Works Item</a></li>
+                    <li><a href="../pages/about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="work-show">
+        <div class="show-area">
+            <div class="show-img"><img src="../img/index/works1.jpg" alt=""></div>
+            <div class="show-text">
+                <h2>Take Me</h2>
+                <p>Right Girl</p>
+                <p>August 2020</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>备案：粤ICP备20010169号</p>
+        <p>深圳七十二龙创意文化有限公司版权所</p>
+    </footer>
+    <script>
+        var ml = document.getElementById("ml");
+
+        function toggle() {
+            if (ml.hasAttribute("hidden")) {
+                ml.removeAttribute("hidden")
+            } else {
+                ml.setAttribute("hidden", "")
+            }
+        }
+    </script>
+    <script src="" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+/* home content */
+/* ------------welcome-------- */
+header{
+    width:100%;
+    height:220px;
+    background-image: url(../img/index/welcome.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    text-align: center;
+}
+header p{
+    font-size:3rem;
+    line-height: 220px;
+    color:#ffffff;
+    text-shadow: 0px 0px 15px #000;
+}
+/* -------popular works--------- */
+.works-title{
+    height: 8rem;
+    line-height: 8rem;
+    text-align: center;
+}
+.works-content{
+    padding: 0px 50px;
+}
+.works{
+    display: flex; 
+    justify-content: space-between;
+}
+.work{
+    width: 30%;
+}
+.work a img{
+    display: block;
+    width:100%;
+}
+.work:hover{
+    box-shadow: 0 0 7px #000;
+}
+.view{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view a{
+    display: block;
+    width:220px;
+    height: 50px;
+    font-size:1.5em;
+    line-height: 50px;
+    text-align: center;
+    border-radius:13px;
+    background: #444;
+    color:#fff;
+}
+.view a:hover{
+    width:230px;
+    height: 55px;
+    font-size:1.6em;
+    line-height: 55px;
+}
+/* ----------about us--------------- */
+.about{
+    height: 200px;
+    background-image: url(../img/index/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    text-align: center;
+}
+.about a{
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 200px;
+    color: #222;
+}
+.about a:hover{
+    color:rgb(51, 75, 153);
+}
+@media (max-width: 1080px){
+    .pop-works{
+        padding:20px 0;
+    }
+}
+@media (max-width: 540px){
+    header{
+        height:100px;
+    }
+    header p{
+        font-size:1.5rem;
+        line-height: 100px;
+    }
+    .about{
+        height: 100px;
+    }
+    .about a{
+        font-size: 2em;
+        line-height: 100px;
+    }
+    .pop-works{
+        padding:30px 0;
+    }
+    .view{
+        height: 10rem;
+    }
+    .view a{
+        width:180px;
+        height: 40px;
+        font-size:1.2em;
+        line-height: 40px;
+    }
+}

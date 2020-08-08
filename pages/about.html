@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>72 Dragens</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/pages.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="clear">
+        <div class="fl brand">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="A Painter's web">
+                A Painter's web
+            </a>
+        </div>
+        <div class="fr menu">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../pages/works.html">Works</a></li>
+                <li><a href="../pages/worksItem.html">Works Item</a></li>
+                <li><a href="../pages/about.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="fr menu-mobile">
+            <div class="menu-icon" onclick="toggle()">
+                <img src="../img/menu.png" alt="menu">
+            </div>
+            <div id="ml" class="menu-list" hidden>
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../pages/works.html">Works</a></li>
+                    <li><a href="../pages/worksItem.html">Works Item</a></li>
+                    <li><a href="../pages/about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="introduce">
+        <div class="title">
+            <h2>About Us</h2>
+            <p>欢迎来到七十二龙的世界,我们为艺术圈提供专业的线上解决方案咨询服务</p>
+        </div>
+        <div class="article">
+            <p>Lorem ipsum从西元15世纪开始就被广泛地使用在西方的印刷、设计领域中，在电脑排版盛行之后，这段被传统印刷产业使用几百年的无意义文字又再度流行。由于这段文字以“Lorem
+                ipsum”起头，并且常被用于标题的测试中，所以一般称为Lorem ipsum，简称为Lipsum。</p>
+            <p>网站没有建设完时，也会出现这样的段落，甚至有些是故意的，包括使用网页制作软件，网页模板等，新建时一般都会出现Lorem ipsum段落</p>
+
+            <p>常见的Lorem ipsum起头如下：</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <footer>
+        <p>备案：粤ICP备20010169号</p>
+        <p>深圳七十二龙创意文化有限公司版权所</p>
+    </footer>
+    <script>
+        var ml = document.getElementById("ml");
+
+        function toggle() {
+            if (ml.hasAttribute("hidden")) {
+                ml.removeAttribute("hidden")
+            } else {
+                ml.setAttribute("hidden", "")
+            }
+        }
+    </script>
+    <script src="" async defer></script>
+</body>
+
+</html>
